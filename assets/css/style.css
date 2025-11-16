@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Poppins;
+    src: url("/assets/font/Poppins-Bold.ttf");
+}
+
+.main_header_div {
+    background-color: #212529;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.header_left_side {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header_left_side img {
+    width: 50px;
+}
+
+.header_left_side label {
+    font-size: 28px;
+    font-family: Poppins, sans-serif;
+    color: #dee2e6;
+    font-weight: 600;
+}
+
+.header_right_side {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header_right_side input {
+    width: 250px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
